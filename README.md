@@ -39,13 +39,11 @@ This project is a **crypto trading bot application** that includes a **frontend*
 
 ### **Setting Up API Keys**
 
-You need to provide your own Binance API keys for the application. Update the following fields in the `config.py` file:
+You need to provide your own Binance Mainnet API keys for the application. Update the following fields in the `config.py` file:
 ```python
 BINANCE_API_KEY = "your_api_key_here"
 BINANCE_SECRET_KEY = "your_secret_key_here"
 ```
-
-**Do not include your keys in the project before uploading to public repositories.** Use `.gitignore` to exclude sensitive files.
 
 ### **Running the Backend**
 
@@ -112,9 +110,9 @@ BINANCE_SECRET_KEY = "your_secret_key_here"
 
 ### **Frontend**
 - Kotlin
+- Compose
 - Retrofit
 - Coroutine
-- LiveData ve ViewModel
 
 ---
 
